@@ -3,6 +3,7 @@ Kitty
 Graphical Network Interface
 Hyprpaper
 Hypr_color_picker
+Hyprshot
 wlogout
 
 zsh
@@ -10,5 +11,7 @@ zsh powerlevel10k
 
 tmux
 
-gtk ---> Maybe optional, it is used for clicking the power button on waybar but I fix the error with some xd things.
-
+zellij
+okular
+ranger
+pandoc    --> Markdown
