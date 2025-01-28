@@ -5,6 +5,7 @@ sudo pacman -S git neovim
 sudo pacman -S zellij
 sudo pacman -S ranger
 sudo pacman -S rust
+sudo pacman -S unzip
 
 sudo pacman -S bluez
 sudo pacman -S bluez-utils
@@ -28,12 +29,12 @@ mkdir ~/Clone && cd ~/Clone
 git clone https://aur.archlinux.org/yay.git && cd yay/
 makepkg -si
 
-sudo cp ~/Downloads/CascadiaCode.zip ~/Downloads/FiraCode.zip /usr/share/fonts/
+sudo cp ~/Hyprdots/Downloads/CascadiaCode.zip ~/Hyprdots/Downloads/FiraCode.zip /usr/share/fonts/
 cd /usr/share/fonts/
 
 sudo unzip CascadiaCode.zip
 sudo rm LICENCE README.md
-sudo unzip CascadiaCode.zip
+sudo unzip FiraCode.zip
 sudo rm LICENCE README.md
 
 fc-cache -f -v
