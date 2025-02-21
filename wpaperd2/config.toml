@@ -1,0 +1,16 @@
+[default]
+#duration = "10s"
+mode = "center"
+sorting = "ascending"
+
+[any]
+path = "/home/smile3477/Downloads/"
+
+[default.transition.directional-wipe]
+#direction = 1.0
+smoothness = 0.5
+
+#[default.transition.hexagonalize]
+#default values for hexagonalize
+#steps = 50
+#horizontal-hexagons = 20.0
