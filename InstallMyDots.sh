@@ -29,12 +29,12 @@ mkdir ~/Clone && cd ~/Clone
 git clone https://aur.archlinux.org/yay.git && cd yay/
 makepkg -si
 
-sudo cp ~/Hyprdots/Downloads/CascadiaCode.zip ~/Hyprdots/Downloads/FiraCode.zip /usr/share/fonts/
+sudo cp ~/Downloads/CascadiaCode.zip ~/Downloads/FiraCode.zip /usr/share/fonts/
 cd /usr/share/fonts/
 
 sudo unzip CascadiaCode.zip
 sudo rm LICENCE README.md
-sudo unzip FiraCode.zip
+sudo unzip CascadiaCode.zip
 sudo rm LICENCE README.md
 
 fc-cache -f -v
@@ -51,6 +51,8 @@ yay -S otf-font-awesome
 yay -S hyprpaper
 yay -S hyprpicker
 yay -S hyprshot
+yay -S clipse
+yay -S wpaperd
 yay -S wlogout
 yay -S zen-browser-bin
 yay -S cava
