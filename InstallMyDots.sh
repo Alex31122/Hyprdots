@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -Syu
-sudo pacman -S git neovim
+sudo pacman -S neovim
 sudo pacman -S zellij
 sudo pacman -S ranger
 sudo pacman -S rust
@@ -22,9 +22,8 @@ sudo mv bonsai.sh /bin
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
 
-git clone https://github.com/Alex31122/Hyprdots && cd Hyprdots
-cp -r Downloads ..
-cp -r hypr/ kitty/ waybar/ ~/.config/
+cp -r Downloads ~/Downloads
+cp -r hypr/ kitty/ waybar/ wpaperd/ ~/.config/
 
 mkdir ~/Clone && cd ~/Clone
 git clone https://aur.archlinux.org/yay.git && cd yay/
