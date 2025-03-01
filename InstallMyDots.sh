@@ -6,6 +6,7 @@ sudo pacman -S zellij
 sudo pacman -S ranger
 sudo pacman -S rust
 sudo pacman -S unzip
+sudo pacman -S eza
 
 sudo pacman -S bluez
 sudo pacman -S bluez-utils
