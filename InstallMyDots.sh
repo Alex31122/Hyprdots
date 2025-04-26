@@ -2,11 +2,13 @@
 
 sudo pacman -Syu
 sudo pacman -S neovim
-sudo pacman -S zellij
+sudo pacman -S yazi
 sudo pacman -S ranger
 sudo pacman -S rust
 sudo pacman -S unzip
 sudo pacman -S eza
+sudo pacman -S brightnessctl
+sudo pacman -S hypridle
 
 sudo pacman -S bluez
 sudo pacman -S bluez-utils
@@ -59,5 +61,6 @@ yay -S cava
 
 # Hyprshot command
 # hyprshot -m region -zdo ~/Images/Screenshot/
+echo "alias cat='bat'" >> ~/.bashrc
 
 # reboot
